@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pakistan Vs England"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:padding="10dp"
+            android:background="@color/material_blue_grey_800"/>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollView"
+            android:layout_gravity="right" >
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView android:text="Batting"
+                        android:background="@drawable/cell_shape"
+                        android:padding="20px"
+                        android:layout_marginRight="5px"
+                        android:gravity="center"
+                        android:layout_span="2"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="15dp"/>
+                    <TextView android:text="Status"
+                        android:background="@drawable/cell_shape"
+                        android:padding="20px"
+                        android:layout_marginRight="5px"
+                        android:gravity="center"
+                        android:textColor="#000000"
+                        android:textSize="15dp"/>
+
+                    <TextView android:text="R"
+                        android:background="@drawable/cell_shape"
+                        android:padding="20px"
+                        android:layout_marginRight="5px"
+                        android:gravity="center"
+                        android:textColor="#000000"
+                        android:textSize="15dp"/>
+
+
+
+                    <TextView android:text="B"
+                        android:background="@drawable/cell_shape"
+                        android:padding="20px"
+                        android:layout_marginRight="5px"
+                        android:gravity="center"
+                        android:textColor="#000000"
+                        android:textSize="15dp"/>
+
+                    <TextView android:text="4s"
+                        android:background="@drawable/cell_shape"
+                        android:padding="20px"
+                        android:layout_marginRight="5px"
+                        android:gravity="center"
+                        android:textColor="#000000"
+                        android:textSize="15dp"/>
+
+                    <TextView android:text="6s"
+                        android:background="@drawable/cell_shape"
+                        android:padding="20px"
+                        android:layout_marginRight="5px"
+                        android:gravity="center"
+                        android:textColor="#000000"
+                        android:textSize="15dp"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView android:text="Batting"
+                        android:background="@drawable/cell_testranking"
+                        android:padding="20px"
+                        android:layout_marginRight="5px"
+                        android:gravity="center"
+                        android:layout_span="2"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:textSize="15dp"/>
+                    <TextView android:text="Status"
+                        android:background="@drawable/cell_shape"
+                        android:padding="20px"
+                        android:layout_marginRight="5px"
+                        android:gravity="center"
+                        android:textColor="#000000"
+                        android:textSize="15dp"/>
+
+                    <TextView android:text="R"
+                        android:background="@drawable/cell_shape"
+                        android:padding="20px"
+                        android:layout_marginRight="5px"
+                        android:gravity="center"
+                        android:textColor="#000000"
+                        android:textSize="15dp"/>
+
+
+
+                    <TextView android:text="B"
+                        android:background="@drawable/cell_shape"
+                        android:padding="20px"
+                        android:layout_marginRight="5px"
+                        android:gravity="center"
+                        android:textColor="#000000"
+                        android:textSize="15dp"/>
+
+                    <TextView android:text="4s"
+                        android:background="@drawable/cell_shape"
+                        android:padding="20px"
+                        android:layout_marginRight="5px"
+                        android:gravity="center"
+                        android:textColor="#000000"
+                        android:textSize="15dp"/>
+
+                    <TextView android:text="6s"
+                        android:background="@drawable/cell_shape"
+                        android:padding="20px"
+                        android:layout_marginRight="5px"
+                        android:gravity="center"
+                        android:textColor="#000000"
+                        android:textSize="15dp"/>
+
+
+                </TableRow>
+                </TableLayout>
+            </ScrollView>
+        </LinearLayout>
+</LinearLayout>

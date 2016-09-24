@@ -1,0 +1,1064 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.androidbelieve.drawerwithswipetabs.PastMatches">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_gravity="right" >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Hong Kong in Scotland ODI Series \n 2 ODI Cricket Series, 2016"
+        android:textStyle="bold"
+    android:paddingTop="10dip"
+    android:paddingBottom="10dip"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:textColor="#FFF"
+    android:textSize="20sp"
+        android:gravity="center"
+        android:background="@color/material_blue_grey_800"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="HongKong vs Scotland "
+            android:textStyle="bold"
+            android:paddingBottom="10dip"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="3dp"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textColor="#dc6800" />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="#97a0a7">
+
+        </View>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="1st ODI "
+            android:textStyle="bold"
+            android:paddingBottom="10dip"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="3dp"
+            android:textSize="18sp"
+            android:gravity="left"
+            android:textColor="#dc6800" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Match Abondoned "
+            android:textStyle="bold"
+            android:paddingBottom="10dip"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="#ff0000"
+            android:textSize="17sp"
+            android:gravity="center" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Venue : Grange Cricket Club, Raeburn Place, Edinburgh "
+            android:textStyle="bold"
+            android:paddingBottom="10dip"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:gravity="left" />
+
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Date: 2016-09-08 "
+                android:textStyle="bold"
+                android:id="@+id/btn1"
+                android:layout_marginTop="12dp"
+                android:paddingBottom="10dip"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:gravity="left"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="View Scorecard"
+                android:layout_alignBottom="@+id/btn1"
+                android:id="@+id/btn"
+                android:background="#dc6800"
+                android:padding="10dp"
+                android:elevation="20dp" />
+
+        </RelativeLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="#97a0a7"> </View>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="2nd ODI "
+            android:textStyle="bold"
+            android:paddingBottom="10dip"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="3dp"
+            android:textSize="18sp"
+            android:gravity="left"
+            android:textColor="#dc6800" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Scotland won by 53 runs"
+            android:textStyle="bold"
+            android:paddingBottom="10dip"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="#ff0000"
+            android:textSize="17sp"
+            android:gravity="center" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Venue : Grange Cricket Club, Raeburn Place, Edinburgh"
+            android:textStyle="bold"
+            android:paddingBottom="10dip"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:gravity="left" />
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=" Date: 2016-09-10"
+                android:textStyle="bold"
+                android:id="@+id/id_btn1"
+                android:layout_marginTop="12dp"
+                android:paddingBottom="10dip"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:gravity="left"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="View Scorecard"
+                android:layout_alignBottom="@+id/id_btn1"
+                android:background="#dc6800"
+                android:id="@+id/btn2ndodi"
+                android:padding="10dp"
+                android:elevation="20dp" />
+
+        </RelativeLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="5dp"
+            android:background="#FFCC00">
+
+        </View>
+        <!-- 2nd Match -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Australia in Sri Lanka T20 Series,\n 2 T20 Cricket Series, 2016"
+            android:textStyle="bold"
+            android:paddingTop="10dip"
+            android:paddingBottom="10dip"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="#FFF"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:background="@color/material_blue_grey_800"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Australia vs Srilanka "
+            android:textStyle="bold"
+            android:paddingBottom="10dip"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="3dp"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textColor="#dc6800"
+         />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="#97a0a7"></View>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="1st T20 "
+            android:textStyle="bold"
+            android:paddingBottom="10dip"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="3dp"
+            android:textSize="18sp"
+            android:gravity="left"
+            android:textColor="#dc6800" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Australia won by 85 runs"
+            android:textStyle="bold"
+            android:paddingBottom="10dip"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="#ff0000"
+            android:textSize="17sp"
+            android:gravity="center" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Venue: Pallekele International Cricket Stadium, Kandy"
+            android:textStyle="bold"
+            android:paddingBottom="10dip"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:gravity="left" />
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Date: 2016-09-06"
+                android:textStyle="bold"
+                android:id="@+id/id_btn2"
+                android:layout_marginTop="12dp"
+                android:paddingBottom="10dip"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:gravity="left"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="View Scorecard"
+                android:layout_alignBottom="@+id/id_btn2"
+                android:background="#dc6800"
+                android:id="@+id/sriaus"
+                android:padding="10dp"
+                android:elevation="20dp" />
+
+        </RelativeLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="#97a0a7"> </View>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="2nd T20"
+            android:textStyle="bold"
+            android:paddingBottom="10dip"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="3dp"
+            android:textSize="18sp"
+            android:gravity="left"
+            android:textColor="#dc6800" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Australia won by 4 wickets"
+            android:textStyle="bold"
+            android:paddingBottom="10dip"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="#ff0000"
+            android:textSize="17sp"
+            android:gravity="center" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Venue: R.Premadasa Stadium, Colombo"
+            android:textStyle="bold"
+            android:paddingBottom="10dip"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:gravity="left" />
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Date: 2016-09-09"
+                android:textStyle="bold"
+                android:id="@+id/id_btn3"
+                android:layout_marginTop="12dp"
+                android:paddingBottom="10dip"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:gravity="left"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="View Scorecard"
+                android:layout_alignBottom="@+id/id_btn3"
+                android:background="#dc6800"
+                android:id="@+id/sriaus2"
+                android:padding="10dp"
+                android:elevation="20dp" />
+
+        </RelativeLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="5dp"
+            android:background="#FFCC00">
+
+        </View>
+
+        <!-- 3rd Match -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Pakistan in England T20 Series,\n 1 T20 Cricket Series, 2016"
+            android:textStyle="bold"
+            android:paddingTop="10dip"
+            android:paddingBottom="10dip"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="#FFF"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:background="@color/material_blue_grey_800"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="England vs Pakistan  "
+            android:textStyle="bold"
+            android:paddingBottom="10dip"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="3dp"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textColor="#dc6800"
+            />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="#97a0a7"></View>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="One-off T20I"
+            android:textStyle="bold"
+            android:paddingBottom="10dip"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="3dp"
+            android:textSize="18sp"
+            android:gravity="left"
+            android:textColor="#dc6800" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Pakistan won by 9 wickets"
+            android:textStyle="bold"
+            android:paddingBottom="10dip"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="#ff0000"
+            android:textSize="17sp"
+            android:gravity="center" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Venue: Old Trafford, Manchester"
+            android:textStyle="bold"
+            android:paddingBottom="10dip"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:gravity="left" />
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Date: 2016-09-07"
+                android:textStyle="bold"
+                android:id="@+id/id_btn4"
+                android:layout_marginTop="12dp"
+                android:paddingBottom="10dip"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:gravity="left"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="View Scorecard"
+                android:layout_alignBottom="@+id/id_btn4"
+                android:background="#dc6800"
+                android:padding="10dp"
+                android:id="@+id/ept20"
+                android:elevation="20dp" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="5dp"
+            android:background="#FFCC00">
+
+        </View>
+
+        <!-- 4th Match -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Hong Kong in Ireland T20 Series,\n 2 T20 Cricket Series, 2016"
+            android:textStyle="bold"
+            android:paddingTop="10dip"
+            android:paddingBottom="10dip"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="#FFF"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:background="@color/material_blue_grey_800"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="HongKong vs Ireland"
+            android:textStyle="bold"
+            android:paddingBottom="10dip"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="3dp"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textColor="#dc6800"
+            />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="#97a0a7"></View>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="1st T20 "
+            android:textStyle="bold"
+            android:paddingBottom="10dip"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="3dp"
+            android:textSize="18sp"
+            android:gravity="left"
+            android:textColor="#dc6800" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="HongKong won by 40 runs"
+            android:textStyle="bold"
+            android:paddingBottom="10dip"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="#ff0000"
+            android:textSize="17sp"
+            android:gravity="center" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Venue: Bready Cricket Club, Magheramason, Bready"
+            android:textStyle="bold"
+            android:paddingBottom="10dip"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:gravity="left" />
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Date: 2016-09-05"
+                android:textStyle="bold"
+                android:id="@+id/id_btn5"
+                android:layout_marginTop="12dp"
+                android:paddingBottom="10dip"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:gravity="left"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="View Scorecard"
+                android:layout_alignBottom="@+id/id_btn5"
+                android:background="#dc6800"
+                android:padding="10dp"
+                android:elevation="20dp" />
+
+        </RelativeLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="#97a0a7"> </View>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="2nd T20"
+            android:textStyle="bold"
+            android:paddingBottom="10dip"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="3dp"
+            android:textSize="18sp"
+            android:gravity="left"
+            android:textColor="#dc6800" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Match Abondoned"
+            android:textStyle="bold"
+            android:paddingBottom="10dip"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="#ff0000"
+            android:textSize="17sp"
+            android:gravity="center" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Venue: Bready Cricket Club, Magheramason, Bready"
+            android:textStyle="bold"
+            android:paddingBottom="10dip"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:gravity="left" />
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Date: 2016-09-06"
+                android:textStyle="bold"
+                android:id="@+id/id_btn6"
+                android:layout_marginTop="12dp"
+                android:paddingBottom="10dip"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:gravity="left"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="View Scorecard"
+                android:layout_alignBottom="@+id/id_btn6"
+                android:background="#dc6800"
+                android:padding="10dp"
+                android:elevation="20dp" />
+
+        </RelativeLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="5dp"
+            android:background="#FFCC00">
+
+        </View>
+
+<!-- 5th Match -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Pakistan in England ODI Series \n 5 ODI Cricket Series, 2016"
+            android:textStyle="bold"
+            android:paddingTop="10dip"
+            android:paddingBottom="10dip"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="#FFF"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:background="@color/material_blue_grey_800"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Pakistan vs England "
+            android:textStyle="bold"
+            android:paddingBottom="10dip"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="3dp"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textColor="#dc6800"
+            />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="#97a0a7"></View>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="1st T20 "
+            android:textStyle="bold"
+            android:paddingBottom="10dip"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="3dp"
+            android:textSize="18sp"
+            android:gravity="left"
+            android:textColor="#dc6800" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="England won by 44 runs"
+            android:textStyle="bold"
+            android:paddingBottom="10dip"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="#ff0000"
+            android:textSize="17sp"
+            android:gravity="center" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Venue:The Rose Bowl, Southampton"
+            android:textStyle="bold"
+            android:paddingBottom="10dip"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:gravity="left" />
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Date:2016-08-24"
+                android:textStyle="bold"
+                android:id="@+id/id_btn7"
+                android:layout_marginTop="12dp"
+                android:paddingBottom="10dip"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:gravity="left"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="View Scorecard"
+                android:layout_alignBottom="@+id/id_btn7"
+                android:background="#dc6800"
+                android:padding="10dp"
+                android:elevation="20dp" />
+
+        </RelativeLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="#97a0a7"> </View>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="2nd T20"
+            android:textStyle="bold"
+            android:paddingBottom="10dip"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="3dp"
+            android:textSize="18sp"
+            android:gravity="left"
+            android:textColor="#dc6800" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="England won by 4 wickets"
+            android:textStyle="bold"
+            android:paddingBottom="10dip"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="#ff0000"
+            android:textSize="17sp"
+            android:gravity="center" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Venue: Lord's, London"
+            android:textStyle="bold"
+            android:paddingBottom="10dip"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:gravity="left" />
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Date:2016-08-27"
+                android:textStyle="bold"
+                android:id="@+id/id_btn8"
+                android:layout_marginTop="12dp"
+                android:paddingBottom="10dip"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:gravity="left"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="View Scorecard"
+                android:layout_alignBottom="@+id/id_btn8"
+                android:background="#dc6800"
+                android:padding="10dp"
+                android:elevation="20dp" />
+
+        </RelativeLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="#97a0a7"></View>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="3rd T20 "
+            android:textStyle="bold"
+            android:paddingBottom="10dip"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="3dp"
+            android:textSize="18sp"
+            android:gravity="left"
+            android:textColor="#dc6800" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="England won by 169 runs"
+            android:textStyle="bold"
+            android:paddingBottom="10dip"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="#ff0000"
+            android:textSize="17sp"
+            android:gravity="center" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Venue: Trent Bridge, Nottingham"
+            android:textStyle="bold"
+            android:paddingBottom="10dip"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:gravity="left" />
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Date:2016-08-30"
+                android:textStyle="bold"
+                android:id="@+id/id_btn9"
+                android:layout_marginTop="12dp"
+                android:paddingBottom="10dip"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:gravity="left"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="View Scorecard"
+                android:layout_alignBottom="@+id/id_btn9"
+                android:background="#dc6800"
+                android:padding="10dp"
+                android:elevation="20dp" />
+
+        </RelativeLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="#97a0a7"> </View>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="4th T20 "
+            android:textStyle="bold"
+            android:paddingBottom="10dip"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="3dp"
+            android:textSize="18sp"
+            android:gravity="left"
+            android:textColor="#dc6800" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="England won by 4 wickets"
+            android:textStyle="bold"
+            android:paddingBottom="10dip"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="#ff0000"
+            android:textSize="17sp"
+            android:gravity="center" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Venue: Headingley, Leeds"
+            android:textStyle="bold"
+            android:paddingBottom="10dip"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:gravity="left" />
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Date:2016-09-01"
+                android:textStyle="bold"
+                android:id="@+id/id_btn10"
+                android:layout_marginTop="12dp"
+                android:paddingBottom="10dip"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:gravity="left"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="View Scorecard"
+                android:layout_alignBottom="@+id/id_btn10"
+                android:background="#dc6800"
+                android:padding="10dp"
+                android:elevation="20dp" />
+
+        </RelativeLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="#97a0a7"> </View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="5th T20 "
+            android:textStyle="bold"
+            android:paddingBottom="10dip"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="3dp"
+            android:textSize="18sp"
+            android:gravity="left"
+            android:textColor="#dc6800" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Pakistan won by 4 wickets"
+            android:textStyle="bold"
+            android:paddingBottom="10dip"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="#ff0000"
+            android:textSize="17sp"
+            android:gravity="center" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Venue: Sophia Gardens, Cardiff"
+            android:textStyle="bold"
+            android:paddingBottom="10dip"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:gravity="left" />
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Date:2016-09-04"
+                android:textStyle="bold"
+                android:id="@+id/id_btn11"
+                android:layout_marginTop="12dp"
+                android:paddingBottom="10dip"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:gravity="left"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="View Scorecard"
+                android:layout_alignBottom="@+id/id_btn11"
+                android:background="#dc6800"
+                android:padding="10dp"
+                android:elevation="20dp" />
+
+        </RelativeLayout>
+
+
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="5dp"
+            android:background="#FFCC00">
+
+        </View>
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

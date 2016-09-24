@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.androidbelieve.drawerwithswipetabs"
+    android:installLocation="preferExternal">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- Network State Permissions -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/fantasy"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="android.app.searchable"
+            android:resource="@xml/searchable"></meta-data>
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            </activity>
+
+            <activity android:name=".Splash">
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN" />
+
+                    <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
+            </activity>
+        <activity android:name=".TeamIndia" />
+        <activity android:name=".TeamUAE" />
+        <activity android:name=".TeamPakistan" />
+        <activity android:name=".TeamScotland" />
+        <activity android:name=".TeamAfghanistan" />
+        <activity android:name=".TeamIreland" />
+        <activity android:name=".TeamAustralia" />
+        <activity android:name=".TeamEngland" />
+        <activity android:name=".TeamNewzealand" />
+        <activity android:name=".TeamSrilanka" />
+        <activity android:name=".TeamSouthafrica" />
+        <activity android:name=".TeamWestindies" />
+        <activity android:name=".TeamBangladesh" />
+        <activity android:name=".TeamZimbabwe" />
+        <activity android:name=".SingleNewsItemActivity"></activity>
+        <activity android:name=".odi1_pakvseng" />
+        <activity android:name=".odi2_pakvseng" />
+        <activity android:name=".hongscot_istodi" />
+        <activity android:name=".hongscot_2ndodi" />
+        <activity android:name=".ausSri_istt20" />
+        <activity android:name=".ausSri_2ndt20" />
+        <activity android:name=".pakeng_t20" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.androidbelieve.drawerwithswipetabs.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

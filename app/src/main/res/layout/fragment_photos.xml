@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Photo Album"
+        android:textStyle="bold"
+        android:paddingTop="10dip"
+        android:paddingBottom="10dip"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="#FFF"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:background="@color/material_blue_grey_800"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Photos of the Week"
+        android:textStyle="bold"
+        android:paddingTop="10dip"
+        android:paddingBottom="10dip"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="#dc6800"
+        android:textSize="20sp"
+        android:gravity="left"
+        android:layout_marginTop="4dp" />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="3dp"
+        android:background="#FFCC00"
+        android:layout_marginTop="-8dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+
+    </View>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_gravity="right" >
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_height="250dp"
+            android:layout_width="380dp"
+            android:src = "@drawable/image7"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="7dp"
+            android:background="@drawable/rankcell_border"
+            android:elevation="10dp"/>
+
+        </TableRow>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_height="3dp"
+            android:background="#000"> </View>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_height="250dp"
+                android:layout_width="380dp"
+                android:src = "@drawable/image1"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="7dp"
+                android:paddingBottom="7dp"
+                android:background="@drawable/rankcell_border"
+                android:elevation="10dp"/>
+
+        </TableRow>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_height="3dp"
+            android:background="#000"> </View>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_height="250dp"
+                android:layout_width="380dp"
+                android:src = "@drawable/image2"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="7dp"
+                android:paddingBottom="7dp"
+                android:background="@drawable/rankcell_border"
+                android:elevation="10dp"/>
+
+        </TableRow>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_height="3dp"
+            android:background="#000"> </View>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_height="250dp"
+                android:layout_width="380dp"
+                android:src = "@drawable/image3"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="7dp"
+                android:paddingBottom="7dp"
+                android:background="@drawable/rankcell_border"
+                android:elevation="10dp"/>
+        </TableRow>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_height="3dp"
+            android:background="#000"> </View>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_height="250dp"
+                android:layout_width="380dp"
+                android:src = "@drawable/image4"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="7dp"
+                android:paddingBottom="7dp"
+                android:background="@drawable/rankcell_border"
+                android:elevation="10dp"/>
+        </TableRow>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_height="3dp"
+            android:background="#000"> </View>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_height="250dp"
+                android:layout_width="380dp"
+                android:src = "@drawable/image5"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="7dp"
+                android:paddingBottom="7dp"
+                android:background="@drawable/rankcell_border"
+                android:elevation="10dp"/>
+        </TableRow>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_height="3dp"
+            android:background="#000"> </View>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_height="250dp"
+                android:layout_width="380dp"
+                android:src = "@drawable/image6"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="7dp"
+                android:paddingBottom="7dp"
+                android:background="@drawable/rankcell_border"
+                android:elevation="10dp"/>
+        </TableRow>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_height="3dp"
+            android:background="#000"> </View>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_height="250dp"
+                android:layout_width="380dp"
+                android:src = "@drawable/image8"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="7dp"
+                android:paddingBottom="7dp"
+                android:background="@drawable/rankcell_border"
+                android:elevation="10dp"/>
+        </TableRow>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_height="3dp"
+            android:background="#000"> </View>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_height="250dp"
+                android:layout_width="380dp"
+                android:src = "@drawable/image9"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="7dp"
+                android:paddingBottom="7dp"
+                android:background="@drawable/rankcell_border"
+                android:elevation="10dp"/>
+        </TableRow>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_height="3dp"
+            android:background="#000"> </View>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_height="250dp"
+                android:layout_width="380dp"
+                android:src = "@drawable/image10"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="7dp"
+                android:paddingBottom="7dp"
+                android:background="@drawable/rankcell_border"
+                android:elevation="10dp"/>
+        </TableRow>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_height="3dp"
+            android:background="#000"> </View>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_height="250dp"
+                android:layout_width="380dp"
+                android:src = "@drawable/image11"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="7dp"
+                android:paddingBottom="7dp"
+                android:background="@drawable/rankcell_border"
+                android:elevation="10dp"/>
+        </TableRow>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_height="3dp"
+            android:background="#000"> </View>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_height="250dp"
+                android:layout_width="380dp"
+                android:src = "@drawable/image12"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="7dp"
+                android:paddingBottom="7dp"
+                android:background="@drawable/rankcell_border"
+                android:elevation="10dp"/>
+        </TableRow>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_height="3dp"
+            android:background="#000"> </View>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_height="250dp"
+                android:layout_width="380dp"
+                android:src = "@drawable/image13"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="7dp"
+                android:paddingBottom="7dp"
+                android:background="@drawable/rankcell_border"
+                android:elevation="10dp"/>
+        </TableRow>
+    </TableLayout>
+    </ScrollView>
+
+</LinearLayout>

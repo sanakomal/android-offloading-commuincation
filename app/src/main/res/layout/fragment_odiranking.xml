@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ODI Ranking"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:background="#1019cb"
+            android:padding="10dp"/>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollView"
+            android:layout_gravity="right" >
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView android:text="Rank"
+                        android:background="@drawable/cell_shape"
+                        android:padding="30px"
+                        android:layout_marginRight="5px"
+                        android:gravity="center"
+                        android:textColor="#ffffff"
+                        android:textSize="15dp"/>
+
+                    <TextView android:text="Team"
+                        android:background="@drawable/cell_shape"
+                        android:padding="30px"
+                        android:layout_marginRight="5px"
+                        android:gravity="center"
+                        android:layout_span="2"
+                        android:layout_weight="1"
+                        android:textColor="#ffffff"
+                        android:textSize="15dp"/>
+
+                    <TextView android:text="Points"
+                        android:background="@drawable/cell_shape"
+                        android:padding="30px"
+                        android:layout_marginRight="5px"
+                        android:gravity="center"
+                        android:textColor="#ffffff"
+                        android:textSize="15dp"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView android:text="1"
+                        android:background="@drawable/rankcell_border"
+                        android:padding="30px"
+                        android:layout_marginRight="5px"
+                        android:gravity="center"
+                        android:textColor="#000000"/>
+
+                    <TextView android:text="Australia"
+                        android:background="@drawable/cell_testranking"
+                        android:padding="30px"
+                        android:layout_marginRight="5px"
+                        android:gravity="center"
+                        android:layout_span="2"
+                        android:layout_weight="1"
+                        android:textColor="#000000"/>
+
+                    <TextView android:text="124"
+                        android:background="@drawable/cell_testranking"
+                        android:padding="30px"
+                        android:layout_marginRight="5px"
+                        android:gravity="center"
+                        android:textColor="#000000"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView android:text="2"
+                        android:background="@drawable/rankcell_border"
+                        android:padding="30px"
+                        android:layout_marginRight="5px"
+                        android:gravity="center"
+                        android:textColor="#000000"/>
+
+                    <TextView android:text="New Zealand"
+                        android:background="@drawable/cell_testranking"
+                        android:padding="30px"
+                        android:layout_marginRight="5px"
+                        android:gravity="center"
+                        android:layout_span="2"
+                        android:layout_weight="1"
+                        android:textColor="#000000"/>
+
+                    <TextView android:text="113"
+                        android:background="@drawable/cell_testranking"
+                        android:padding="30px"
+                        android:layout_marginRight="5px"
+                        android:gravity="center"
+                        android:textColor="#000000"/>
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView android:text="3"
+                        android:background="@drawable/rankcell_border"
+                        android:padding="30px"
+                        android:layout_marginRight="5px"
+                        android:gravity="center"
+                        android:textColor="#000000"/>
+
+                    <TextView android:text="India"
+                        android:background="@drawable/cell_testranking"
+                        android:padding="30px"
+                        android:layout_marginRight="5px"
+                        android:gravity="center"
+                        android:layout_span="2"
+                        android:layout_weight="1"
+                        android:textColor="#000000"/>
+
+                    <TextView android:text="110"
+                        android:background="@drawable/cell_testranking"
+                        android:padding="30px"
+                        android:layout_marginRight="5px"
+                        android:gravity="center"
+                        android:textColor="#000000"/>
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView android:text="4"
+                        android:background="@drawable/rankcell_border"
+                        android:padding="30px"
+                        android:layout_marginRight="5px"
+                        android:gravity="center"
+                        android:textColor="#000000"/>
+
+                    <TextView android:text="South Africa"
+                        android:background="@drawable/cell_testranking"
+                        android:padding="30px"
+                        android:layout_marginRight="5px"
+                        android:gravity="center"
+                        android:layout_span="2"
+                        android:layout_weight="1"
+                        android:textColor="#000000"/>
+
+                    <TextView android:text="110"
+                        android:background="@drawable/cell_testranking"
+                        android:padding="30px"
+                        android:layout_marginRight="5px"
+                        android:gravity="center"
+                        android:textColor="#000000"/>
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView android:text="5"
+                        android:background="@drawable/rankcell_border"
+                        android:padding="30px"
+                        android:layout_marginRight="5px"
+                        android:gravity="center"
+                        android:textColor="#000000"/>
+
+                    <TextView android:text="England"
+                        android:background="@drawable/cell_testranking"
+                        android:padding="30px"
+                        android:layout_marginRight="5px"
+                        android:gravity="center"
+                        android:layout_span="2"
+                        android:layout_weight="1"
+                        android:textColor="#000000"/>
+
+                    <TextView android:text="106"
+                        android:background="@drawable/cell_testranking"
+                        android:padding="30px"
+                        android:layout_marginRight="5px"
+                        android:gravity="center"
+                        android:textColor="#000000"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView android:text="6"
+                        android:background="@drawable/rankcell_border"
+                        android:padding="30px"
+                        android:layout_marginRight="5px"
+                        android:gravity="center"
+                        android:textColor="#000000"/>
+
+                    <TextView android:text="Sri Lanka"
+                        android:background="@drawable/cell_testranking"
+                        android:padding="30px"
+                        android:layout_marginRight="5px"
+                        android:gravity="center"
+                        android:layout_span="2"
+                        android:layout_weight="1"
+                        android:textColor="#000000"/>
+
+                    <TextView android:text="101"
+                        android:background="@drawable/cell_testranking"
+                        android:padding="30px"
+                        android:layout_marginRight="5px"
+                        android:gravity="center"
+                        android:textColor="#000000"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView android:text="7"
+                        android:background="@drawable/rankcell_border"
+                        android:padding="30px"
+                        android:layout_marginRight="5px"
+                        android:gravity="center"
+                        android:textColor="#000000"/>
+
+                    <TextView android:text="Bangladesh"
+                        android:background="@drawable/cell_testranking"
+                        android:padding="30px"
+                        android:layout_marginRight="5px"
+                        android:gravity="center"
+                        android:layout_span="2"
+                        android:layout_weight="1"
+                        android:textColor="#000000"/>
+
+                    <TextView android:text="98"
+                        android:background="@drawable/cell_testranking"
+                        android:padding="30px"
+                        android:layout_marginRight="5px"
+                        android:gravity="center"
+                        android:textColor="#000000"/>
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView android:text="8"
+                        android:background="@drawable/rankcell_border"
+                        android:padding="30px"
+                        android:layout_marginRight="5px"
+                        android:gravity="center"
+                        android:textColor="#000000"/>
+
+                    <TextView android:text="West Indies"
+                        android:background="@drawable/cell_testranking"
+                        android:padding="30px"
+                        android:layout_marginRight="5px"
+                        android:gravity="center"
+                        android:layout_span="2"
+                        android:layout_weight="1"
+                        android:textColor="#000000"/>
+
+                    <TextView android:text="94"
+                        android:background="@drawable/cell_testranking"
+                        android:padding="30px"
+                        android:layout_marginRight="5px"
+                        android:gravity="center"
+                        android:textColor="#000000"/>
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView android:text="9"
+                        android:background="@drawable/rankcell_border"
+                        android:padding="30px"
+                        android:layout_marginRight="5px"
+                        android:gravity="center"
+                        android:textColor="#000000"/>
+
+                    <TextView android:text="Pakistan"
+                        android:background="@drawable/cell_testranking"
+                        android:padding="30px"
+                        android:layout_marginRight="5px"
+                        android:gravity="center"
+                        android:layout_span="2"
+                        android:layout_weight="1"
+                        android:textColor="#000000"/>
+
+                    <TextView android:text="87"
+                        android:background="@drawable/cell_testranking"
+                        android:padding="30px"
+                        android:layout_marginRight="5px"
+                        android:gravity="center"
+                        android:textColor="#000000"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView android:text="10"
+                        android:background="@drawable/rankcell_border"
+                        android:padding="30px"
+                        android:layout_marginRight="5px"
+                        android:gravity="center"
+                        android:textColor="#000000"/>
+
+                    <TextView android:text="Afghanistan"
+                        android:background="@drawable/cell_testranking"
+                        android:padding="30px"
+                        android:layout_marginRight="5px"
+                        android:gravity="center"
+                        android:layout_span="2"
+                        android:layout_weight="1"
+                        android:textColor="#000000"/>
+
+                    <TextView android:text="49"
+                        android:background="@drawable/cell_testranking"
+                        android:padding="30px"
+                        android:layout_marginRight="5px"
+                        android:gravity="center"
+                        android:textColor="#000000"/>
+
+                </TableRow>
+
+            </TableLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

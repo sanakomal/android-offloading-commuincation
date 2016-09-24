@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+        <item android:title="Home"
+            android:id="@+id/home_id"
+            android:icon="@drawable/home">
+        </item>
+
+
+        <item
+            android:id="@+id/id_photos"
+            android:title="Photos"
+            android:icon="@drawable/photos"
+            ></item>
+    </group>
+
+    <item android:title="Ranking">
+        <menu>
+
+            <item
+                android:id="@+id/id_test"
+                android:title="Test Matches"
+                android:icon="@drawable/rankingicon"
+                ></item>
+            <item
+                android:id="@+id/id_odi"
+                android:title="ODI Matches"
+                android:icon="@drawable/rankicon"
+                ></item>
+            <item
+                android:id="@+id/id_t20"
+                android:title="T20 Matches"
+                android:icon="@drawable/ranksicon"
+                ></item>
+        </menu>
+    </item>
+
+    <item android:title="Matches">
+
+            <menu>
+                <item
+                    android:id="@+id/id_all"
+                    android:title="All"
+                    android:icon="@drawable/all"
+                    ></item>
+                <item
+                    android:id="@+id/id_past"
+                    android:title="Past"
+                    android:icon="@drawable/upcoming"
+                    ></item>
+                <item
+                    android:id="@+id/id_recent"
+                    android:title="Recent"
+                    android:icon="@drawable/recent"
+                    ></item>
+                <item
+                    android:id="@+id/id_coming"
+                    android:title="Upcoming"
+                    android:icon="@drawable/upcoming"
+                    ></item>
+
+            </menu>
+    </item>
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/id_aboutus"
+                android:title="About Us"
+                android:icon="@drawable/aboutus"
+                ></item>
+            <item
+                android:id="@+id/id_help"
+                android:title="Help"
+                android:icon="@drawable/help"
+                ></item>
+
+
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,1028 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_gravity="right" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Srilanka vs Australia "
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:padding="10dp"
+            android:background="@color/material_blue_grey_800"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Australia Innings "
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#ff3300"
+            android:padding="10dp" />
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <TextView android:text="Batting"
+                            android:background="@drawable/cell_testranking"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+                        <TextView android:text="Status"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView android:text="R"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+
+
+                        <TextView android:text="B"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView android:text="4s"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView android:text="6s"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <TextView android:text="GJ Maxwell"
+                            android:background="@drawable/cell_testranking"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+                        <TextView android:text="b Prasanna "
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView android:text="66"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView android:text="29"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView android:text="7"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView android:text="4"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <TextView android:text="DA Warner"
+                            android:background="@drawable/cell_testranking"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+                        <TextView android:text="c Perera b Pathirana"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView android:text="25"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView android:text="24"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView android:text="3"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView android:text="0"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <TextView android:text="UT Khawaja"
+                            android:background="@drawable/cell_testranking"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+                        <TextView android:text="lbw b Dilshan"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView android:text="6"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView android:text="15"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView android:text="0"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView android:text="0"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <TextView android:text="MS Wade"
+                            android:background="@drawable/cell_testranking"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+                        <TextView android:text="c Chandi b Dilshan"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView android:text="14"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        10<TextView android:text="23"
+                        android:background="@drawable/cell_shape"
+                        android:padding="20px"
+                        android:layout_marginRight="5px"
+                        android:gravity="center"
+                        android:textColor="#000000"
+                        android:textSize="15dp"/>
+
+                        <TextView android:text="0"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView android:text="0"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+
+                    </TableRow>
+
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <TextView android:text="TM Head"
+                            android:background="@drawable/cell_testranking"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+                        <TextView android:text="not out"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView android:text="9"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        10<TextView android:text="10"
+                        android:background="@drawable/cell_shape"
+                        android:padding="20px"
+                        android:layout_marginRight="5px"
+                        android:gravity="center"
+                        android:textColor="#000000"
+                        android:textSize="15dp"/>
+
+                        <TextView android:text="0"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView android:text="1"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <TextView android:text="Extras"
+                            android:background="@drawable/cell_testranking"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+                        <TextView android:text="(lb 1, w 4)"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView android:text="5"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <TextView android:text="Total"
+                            android:background="@drawable/cell_testranking"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+                        <TextView android:text="(6 wickets; 17.5 overs)"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView android:text="130"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="SriLanka Innings "
+                            android:gravity="center"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            android:textColor="#ff3300"
+                            android:padding="10dp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <TextView android:text="Batting"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+                        <TextView android:text="Status"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView android:text="R"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+
+
+                        <TextView android:text="B"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView android:text="4s"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView android:text="6s"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <TextView android:text="MDKJ Perera†"
+                            android:background="@drawable/cell_testranking"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+                        <TextView android:text="c Warner b Faulkner"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView android:text="22"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView android:text="18"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView android:text="4"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView android:text="0"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <TextView android:text="TM Dilshan"
+                            android:background="@drawable/cell_testranking"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+                        <TextView android:text="c Warner b Hastings"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView android:text="1"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView android:text="3"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView android:text="0"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView android:text="0"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <TextView android:text="DM de Silva"
+                            android:background="@drawable/cell_testranking"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+                        <TextView android:text="c Faulkner b Starc"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView android:text="62"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView android:text="50"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView android:text="5"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView android:text="0"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <TextView android:text="LD Chandimal"
+                            android:background="@drawable/cell_testranking"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+                        <TextView android:text="c n b Faulkner"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView android:text="4"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView android:text="5"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView android:text="0"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView android:text="0"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <TextView android:text="BKG Mendis"
+                            android:background="@drawable/cell_testranking"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+                        <TextView android:text="lbw b Zampa"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView android:text="5"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView android:text="7"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView android:text="1"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView android:text="0"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <TextView android:text="NLTC Perera"
+                            android:background="@drawable/cell_testranking"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+                        <TextView android:text="c Head b Zampa"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView android:text="0"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView android:text="2"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView android:text="0"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView android:text="0"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <TextView android:text="CK Kapugedera"
+                            android:background="@drawable/cell_testranking"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView android:text="c Warner b Zampa"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView android:text="7"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView android:text="12"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView android:text="0"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView android:text="0"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <TextView android:text="Extras"
+                            android:background="@drawable/cell_testranking"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+                        <TextView android:text="(lb 1, w 5, nb 1)"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView android:text="7"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <TextView android:text="Total"
+                            android:background="@drawable/cell_testranking"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+                        <TextView android:text="(9 wickets; 20 overs)"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView android:text="128"
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:padding="20px"
+                            android:layout_marginRight="5px"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="15dp"/>
+
+
+                    </TableRow>
+                </TableLayout>
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
